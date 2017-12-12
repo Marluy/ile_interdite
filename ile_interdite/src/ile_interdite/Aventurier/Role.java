@@ -32,7 +32,7 @@ public enum Role
         return this.nomRole ;
     }
 
-    static Role getFromName(String name)
+    public static Role getFromName(String name)
     {
         if (AVENTURIER.name().equals(name)) return AVENTURIER ;
         if (EXPLORATEUR.name().equals(name)) return EXPLORATEUR ;

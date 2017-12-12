@@ -7,7 +7,7 @@ import java.util.HashSet;
 public class Explorateur extends Aventurier {
 
 	public String getNomRole() {
-		// TODO - implement Explorateur.getNomRole
+	    // TODO - implement Explorateur.getPion
 		throw new UnsupportedOperationException();
 	}
 
