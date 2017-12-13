@@ -71,11 +71,12 @@ public class Controleur {
 		    
 		} while(Role.getFromName(choix) == null || !rolesDispo.contains(Role.getFromName(choix)));
 		
-		/*
+		
 		switch(Role.getFromName(choix))
 		{
 		    case EXPLORATEUR:
 			this.joueurs.add(new Explorateur(nomJoueur);
+                        rolesDispo.remove(i)
 			break;
 			
 		    case INGENIEUR:
@@ -99,7 +100,7 @@ public class Controleur {
 			break;
 			
 		    default:break;
-		}*/
+		}
 		
 		
 		
